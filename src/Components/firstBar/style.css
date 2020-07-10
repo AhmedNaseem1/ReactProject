@@ -1,0 +1,60 @@
+.bar{
+    background-color: #005BAA;
+    padding: 5px;
+    color:#fff;
+    margin: auto;
+    font-family: 'Cairo', sans-serif;
+}
+
+.all{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bar .icons-but{
+    display: flex;
+}
+
+.bar .icons-but i{
+    margin: 10px 5px;
+    transition: 0.6s;
+}
+
+.bar .icons-but i:hover{
+    color:rgb(202, 73, 73);
+}
+
+.bar .buttons button{
+    margin-left: 15px;
+    border-radius: 0;
+    color:#fff;
+}
+
+.contactus{
+    display: flex;
+    margin-top: 5px;
+}
+
+.contactus i{
+    margin: 7px;
+}
+
+.contactus p{
+    margin: 2px 7px;
+}
+
+@media (max-width: 767px){
+    .all{
+        display: block;
+    }
+    .icons-but{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+    }
+    .contactus{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+    }
+}

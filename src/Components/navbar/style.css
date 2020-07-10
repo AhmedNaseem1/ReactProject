@@ -1,0 +1,167 @@
+.Nav{
+    margin-top: 15px;
+    font-family: 'Cairo', sans-serif;
+}
+
+.Nav .input-group-text{
+    border-radius: 0;
+    background-color: #005BAA;
+    color:#fff;
+    cursor: pointer;
+}
+
+.Nav .input{
+    border: 0;
+    background-color: rgb(238, 231, 231);
+    outline: none;
+    width: 30%;
+    margin-left: 5px;
+    padding: 5px;
+}
+
+.Nav button{
+    color:#fff;
+    border-radius: 0;
+    margin-left: 5px;
+}
+
+.Navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Navbar nav ul{
+    list-style: none;
+    margin-top: 35px;
+}
+
+.Navbar nav ul li{
+    display: inline-block;
+}
+
+.Navbar nav ul li a{
+    color:#000;
+    margin-left: 70px;
+    font-size: 15pt;
+    padding: 5px;
+    text-decoration: none;
+    transition: 0.6s;
+}
+
+.Navbar nav ul li a:hover{
+    background-color: #005BAA;
+    color:#fff;
+}
+
+.Navbar .logo{
+    position: relative;
+    top: -30px;
+}
+
+.Navbar .logo img{
+    width: 100%;
+    height: 100px;
+    width: 100px;
+    clip-path: circle(50% at 50% 50%);
+}
+
+.bars{
+    display: none;
+    cursor: pointer;
+}
+
+.bars i{
+    color:#005BAA;
+    font-size: 19pt;
+    position: relative;
+    top: 40px;
+}
+
+.footer .weather{
+    padding-top: 15px;
+}
+
+.footer .weather .name-weather-pre{
+    display: flex;
+}
+
+.weather .name{
+    display: flex;
+    width: 17%;
+}
+
+.weather .name i{
+    margin-top: 7px;
+}
+
+.weather .weather-icon{
+    text-align: center;
+    width: 25%;
+}
+
+.weather .weather-icon i{
+    font-size: 60pt;
+    margin-top: 15px;
+}
+
+@media (max-width: 787px){
+    .Navbar nav ul{
+        display: none;
+    }
+    .bars{
+        display: block;
+        top: 33%;
+    }
+}
+@media (min-width: 786px){
+    .Navbar nav ul li a{
+        font-size: 12pt;
+        margin-left: 20px;
+    }
+}
+@media (min-width: 992px){
+    .Navbar nav ul li a{
+        font-size: 13pt;
+        margin-left: 60px;
+    }
+}
+@media (min-width: 1200px){
+    .Navbar nav ul li a{
+        font-size: 15pt;
+        margin-left: 70px;
+    }
+}
+
+.nav2{
+    position: fixed;
+    background-color: #005BAA;
+    height: 100vh;
+    top: 0;
+    right: 0;
+    padding: 50px;
+    display: none;
+    width: 0;
+}
+
+.nav2.open{
+    width: 50%;
+}
+
+.nav2 nav ul{
+    list-style: none;
+}
+
+.nav2 nav ul li{
+    margin-top: 75px;
+}
+
+.nav2 nav ul li a{
+    color:#fff;
+    font-size: 15pt;
+    text-decoration: none;
+    transition: 0.6s;
+}
+
+.nav2 nav ul li a:hover{
+    color:#000;
+}

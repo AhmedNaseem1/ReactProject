@@ -1,0 +1,70 @@
+.choosen{
+    font-family: 'Cairo';
+    margin-top: 40px;
+    background-color: rgba(228, 227, 227, 0.424);
+    padding: 15px;
+    clip-path: polygon(50% 4%, 100% 0, 100% 44%, 100% 75%, 100% 100%, 32% 100%, 0 100%, 0% 43%, 0 0);
+}
+
+.choosen .title{
+    text-align: right;
+    margin-right: 3%;
+}
+
+.all-choosen{
+    display: flex;
+    flex-wrap: wrap;
+}
+.choose{
+    display: flex;
+    background-color: #fff;
+    margin: 1%;
+    color:#005BAA;
+    font-weight: bold;
+    overflow: hidden;
+    padding: 5px;
+}
+
+.choose h4{
+    font-weight: bold;
+}
+
+.choose img{
+    clip-path: polygon(0 0, 100% 0, 66% 100%, 0% 100%);
+    overflow: hidden;
+    transition: 0.6s;
+}
+
+.choose img:hover{
+    transform: scale(1.03);
+}
+
+.choose .info{
+    position: relative;
+    top: 80px;
+    right: 0;
+}
+
+.choose .stars{
+    position: absolute;
+    right: 30px;
+}
+
+.choose .stars i{
+    color:rgb(245, 221, 6);
+}
+
+.choose .stars i:first-child{
+    color:#ccc;
+}
+
+@media(max-width:767px){
+    .choosen{
+        margin: auto;
+    }
+}
+@media(min-width:768px){
+    .choose{
+        margin:15px auto;
+    }
+}

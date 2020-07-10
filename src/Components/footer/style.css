@@ -1,0 +1,105 @@
+.footer{
+    background-color: rgb(71, 70, 70);
+    color:#fff;
+    margin-top: 15px;
+}
+
+.all-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.all-footer .contact-us i{
+    margin:5px;
+    transition: 0.6s;
+}
+
+.all-footer .contact-us i:nth-of-type(1):hover{
+    color:#1b89e9
+}
+.all-footer .contact-us i:nth-of-type(2):hover{
+    color:#5aa3e2
+}
+.all-footer .contact-us i:nth-of-type(3):hover{
+    color:#e91b1b
+}
+.all-footer .contact-us i:nth-of-type(4):hover{
+    color:#301be9
+}
+
+.all-footer .logo {
+    clip-path: circle(33.1% at 51% 48%);
+}
+
+.all-footer .logo img{
+    height: 150px;
+    width: 150px;
+    clip-path: circle(50% at 50% 50%);
+    transition: 0.6s;
+}
+
+.all-footer .logo img:hover{
+    transform: scale(1.09);
+}
+
+.weather{
+    padding: 5px;
+    position: relative;
+    top: 5px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.weather .name-weather-pre .name i{
+    margin-right: 5px;
+    margin-top: 7px;
+}
+
+.weather .weather-per span{
+    padding: 5px;
+    font-size: 20px;
+}
+
+.weather .weather-per .temp{
+    font-size: 20px;
+}
+
+.weather .weather-per i{
+    color:transparent;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    font-size: 5px;
+    position: relative;
+    top: -13px;
+    margin-right: 5px;
+}
+
+.weather .weather-icon .cloud{
+    border-radius: 50%;
+}
+
+.weather .weather-info {
+    display: flex;
+    margin-top: 2%;
+}
+
+.weather .weather-info .first,
+.weather .weather-info .second{
+    margin-right: 3%;
+}
+
+.weather .weather-info span{
+    margin: 1px;
+    display: block;
+}
+
+@media (max-width:767px){
+    .all-footer{
+        flex-wrap: wrap;
+        padding-top: 15px;
+    }
+    .all-footer .logo {
+        margin: auto;
+    }
+}

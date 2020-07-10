@@ -1,0 +1,44 @@
+.header{
+    background-image: url('./kaaba.jpeg');
+    min-height: 100vh;
+    background-size: cover;
+    width: 100%;
+    position: relative;
+    background-attachment: fixed;
+    font-family: 'Cairo', sans-serif;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.header .icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-size: 40pt;
+    color:#fff;
+    text-align: center;
+    position: relative;
+    z-index: 1000;
+}
+
+.header .icons i{
+    margin: 50px;
+}
+
+.header .icons p{
+    font-size: 15pt;
+}
+
+@media (max-width:767px){
+    .header .icons{
+        display: block;
+    }
+}

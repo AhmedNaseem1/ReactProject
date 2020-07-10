@@ -1,0 +1,131 @@
+.offserhotel{
+    font-family: 'Cairo';
+    margin-top: 70px;
+    position: relative;
+}
+
+.offserhotel h4{
+    text-align: right;
+    margin-bottom: 40px;
+}
+
+.offserhotel .card{
+    border: none;
+    border-bottom: 1px solid #da3a3a;
+    border-radius: 0;
+    position: relative;
+    overflow: visible;
+    width: 20rem;
+}
+
+.cards-all{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.card .second-price,
+.card .third-price,
+.card .first-price{
+    position: absolute;
+    top: 15px;
+    left: -5px;
+    z-index: 1000;
+    background-color: rgb(32, 129, 206);
+    color:#fff;
+    padding: 7px;
+    overflow: visible;
+}
+
+.card1 img,
+.card2 img,
+.card3 img{
+    border-radius: 0 40% 0 0;
+    transition: 0.6s;
+}
+.card1 img:hover,
+.card2 img:hover,
+.card3 img:hover{
+    transform: scale(1.02);
+}
+
+.offserhotel .ads{
+    display: flex;
+}
+
+.ads{
+    max-width: 100%;
+    max-height: 100%;
+    margin-top: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.offserhotel .ads .ads-1,
+.offserhotel .ads .ads-2{
+    max-width: 100%;
+    max-height: 100%;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.offserhotel .ads .ads-2 img{
+    width: 100%;
+    overflow: hidden;
+}
+.offserhotel .ads .ads-1 img{
+    width: 93%;
+    overflow: hidden;
+}
+
+.offserhotel .ads .ads-1 h5,
+.offserhotel .ads .ads-2 h5{
+    position: absolute;
+    top: 5%;
+    right: 7%;
+    color:#fff;
+    background-color: #000;
+    padding: 5px;
+}
+
+@media (max-width:767px){
+    .cards-all{
+       display: block;
+       text-align: center;
+    }
+    .offserhotel .card{
+        margin: 15px auto;
+        width: 30rem;
+    }
+    .offserhotel h4{
+        text-align: center;
+    }
+    .offserhotel .ads{
+        display: block;
+    }
+    .offserhotel .ads .ads-1 img{
+        margin-bottom: 1%;
+    }
+    .offserhotel .ads .ads-2 img{
+        width: 93%;
+    }
+}
+
+
+@media (max-width:768px){
+    .offserhotel .card{
+        width: 12rem;
+    }
+}
+
+@media (max-width:990px){
+    .offserhotel .card{
+        width: 10rem;
+    }
+}
+
+@media (max-width:1200px){
+    .offserhotel .card{
+        width: 18rem;
+    }
+}

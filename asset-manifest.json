@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/ReactProject1/static/css/main.a259852e.chunk.css",
-    "main.js": "/ReactProject1/static/js/main.58322b49.chunk.js",
-    "main.js.map": "/ReactProject1/static/js/main.58322b49.chunk.js.map",
-    "runtime-main.js": "/ReactProject1/static/js/runtime-main.b8869b4e.js",
-    "runtime-main.js.map": "/ReactProject1/static/js/runtime-main.b8869b4e.js.map",
-    "static/css/2.de424728.chunk.css": "/ReactProject1/static/css/2.de424728.chunk.css",
-    "static/js/2.d0743dee.chunk.js": "/ReactProject1/static/js/2.d0743dee.chunk.js",
-    "static/js/2.d0743dee.chunk.js.map": "/ReactProject1/static/js/2.d0743dee.chunk.js.map",
-    "index.html": "/ReactProject1/index.html",
-    "precache-manifest.3449b47cf880e3fbe8d735d7f5b77cc0.js": "/ReactProject1/precache-manifest.3449b47cf880e3fbe8d735d7f5b77cc0.js",
-    "service-worker.js": "/ReactProject1/service-worker.js",
-    "static/css/2.de424728.chunk.css.map": "/ReactProject1/static/css/2.de424728.chunk.css.map",
-    "static/css/main.a259852e.chunk.css.map": "/ReactProject1/static/css/main.a259852e.chunk.css.map",
-    "static/js/2.d0743dee.chunk.js.LICENSE.txt": "/ReactProject1/static/js/2.d0743dee.chunk.js.LICENSE.txt",
-    "static/media/style.css": "/ReactProject1/static/media/kaaba.54c25add.jpeg"
+    "main.css": "/ReactProject/static/css/main.3c7467af.chunk.css",
+    "main.js": "/ReactProject/static/js/main.e62e8636.chunk.js",
+    "main.js.map": "/ReactProject/static/js/main.e62e8636.chunk.js.map",
+    "runtime-main.js": "/ReactProject/static/js/runtime-main.586df27e.js",
+    "runtime-main.js.map": "/ReactProject/static/js/runtime-main.586df27e.js.map",
+    "static/css/2.de424728.chunk.css": "/ReactProject/static/css/2.de424728.chunk.css",
+    "static/js/2.d0743dee.chunk.js": "/ReactProject/static/js/2.d0743dee.chunk.js",
+    "static/js/2.d0743dee.chunk.js.map": "/ReactProject/static/js/2.d0743dee.chunk.js.map",
+    "index.html": "/ReactProject/index.html",
+    "precache-manifest.b1e6305f4b8cfe2a233e89f6a86ba10b.js": "/ReactProject/precache-manifest.b1e6305f4b8cfe2a233e89f6a86ba10b.js",
+    "service-worker.js": "/ReactProject/service-worker.js",
+    "static/css/2.de424728.chunk.css.map": "/ReactProject/static/css/2.de424728.chunk.css.map",
+    "static/css/main.3c7467af.chunk.css.map": "/ReactProject/static/css/main.3c7467af.chunk.css.map",
+    "static/js/2.d0743dee.chunk.js.LICENSE.txt": "/ReactProject/static/js/2.d0743dee.chunk.js.LICENSE.txt",
+    "static/media/style.css": "/ReactProject/static/media/kaaba.54c25add.jpeg"
   },
   "entrypoints": [
-    "static/js/runtime-main.b8869b4e.js",
+    "static/js/runtime-main.586df27e.js",
     "static/css/2.de424728.chunk.css",
     "static/js/2.d0743dee.chunk.js",
-    "static/css/main.a259852e.chunk.css",
-    "static/js/main.58322b49.chunk.js"
+    "static/css/main.3c7467af.chunk.css",
+    "static/js/main.e62e8636.chunk.js"
   ]
 }

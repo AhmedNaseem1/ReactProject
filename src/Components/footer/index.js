@@ -10,7 +10,7 @@ class Footer extends Component{
         feelslike: '',
     }
     componentDidMount(){
-      axios.get('https://api.weatherstack.com/current?access_key=9704ce21ca1619fc5e5aa1a04065f198&query=Saudi%20Arabia&fbclid=IwAR3N3RpHEO51klekwOIi-tTP9B3gTHbBOjHc4L_EfHR_vVxxc5_Ln1g5iss')
+      axios.get('http://api.weatherstack.com/current?access_key=9704ce21ca1619fc5e5aa1a04065f198&query=Saudi%20Arabia&fbclid=IwAR3N3RpHEO51klekwOIi-tTP9B3gTHbBOjHc4L_EfHR_vVxxc5_Ln1g5iss')
       .then(res =>{
          this.setState({
              tempreaturee:res.data.current.temperature,
